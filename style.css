@@ -11,6 +11,15 @@ Vert profond : #017b71
 Beige jaune : #fffde7
 */
 
+@font-face {
+    font-family: 'amerigo_btbold';
+    src: url('fonts/amerigo-bold-bt-webfont.woff2') format('woff2'),
+         url('fonts/amerigo-bold-bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +34,7 @@ html {
     scroll-behavior: smooth;
     color: #000000;
     max-width: 100%;
-    font-family: 'Alegreya', serif;
+    font-family: 'amerigo_btbold', serif;
     overflow-x: hidden;
     height: 100%;
 }
@@ -75,7 +84,7 @@ nav>div:nth-child(3) {
 /* ---- Meril ----- */
 
 .meriltext {
-    font-family: 'Alegreya', serif;
+    font-family: 'amerigo_btbold', serif;
     font-weight: 700;
     font-size: 50px;
 }
@@ -196,15 +205,15 @@ main {
 }
 
 .landing-page div p {
-    font-family: 'Castoro', serif;
+    font-family: 'Georgia', serif;
     font-weight: 500;
     color: #c4c6cd;
     font-size: 45px;
 }
 
 .landing-page div h2 {
-    font-family: 'Alegreya', serif;
-    font-weight: 600;
+    font-family: 'amerigo_btbold', serif;
+    font-weight: 500;
     color: #36475f;
     font-size: 130px;
     margin: 15px 0 90px 0;
@@ -247,9 +256,9 @@ main {
 }
 
 .product>div h2 {
-    font-family: 'Alegreya', serif;
+    font-family: 'amerigo_btbold', serif;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     color: #36475f;
     margin-bottom: 50px;
 }
@@ -314,7 +323,7 @@ main {
 /* ------------------------------ CheckList --------------------------------------*/
 
 .checklist {
-    background-image: url(images/CheckList.PNG);
+    background-image: url(images/CheckList.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0 300px;
@@ -434,7 +443,7 @@ main {
 .trial article div h5 {
     color: #36475f;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 50px;
 }
 
@@ -514,7 +523,7 @@ main {
 /* ------------------------------ Meril --------------------------------------*/
 
 .meril {
-    background-image: url(images/Meril.PNG);
+    background-image: url(images/Meril.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 200px;
@@ -544,7 +553,7 @@ main {
 }
 
 .meril article div p {
-    font-family: 'Castoro', serif;
+    font-family: 'Georgia', serif;
     color: #36475f;
     font-size: 60px;
     line-height: 80px;
@@ -567,7 +576,7 @@ main {
 }
 
 .contact form label {
-    font-family: 'Castoro', serif;
+    font-family: 'Georgia', serif;
     color: #36475f;
     font-size: 60px;
 }
@@ -688,7 +697,7 @@ footer div li {
 }
 
 .footer-social p {
-    font-family: 'Castoro', sans-serif;
+    font-family: 'Georgia', sans-serif;
     color: #b0b3bd;
     font-size: 18px;
     font-weight: 400;
