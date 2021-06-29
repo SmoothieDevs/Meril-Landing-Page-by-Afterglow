@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- JS Librairie -->
+    <!-- Waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -30,7 +33,7 @@
                 </ul>
             </a>
             <ul>
-                <li><a class="home active" href="#">Home</a></li>
+                <li><a class="home active" href="#home">Home</a></li>
                 <li><a class="about" href="#product">About us</a></li>
                 <li><a class="features" href="#features">Features</a></li>
                 <li><a class="fees" href="#fees">Fees</a></li>
@@ -66,11 +69,11 @@
                     </ul>
                 </a>
             </li>
-            <li><a class="menuLink active" href="#">Home</a></li>
-            <li><a class="menuLink" href="#product">About us</a></li>
-            <li><a class="menuLink" href="#features">Features</a></li>
-            <li><a class="menuLink" href="#fees">Fees</a></li>
-            <li><a class="menuLink" href="#contact">Contact us</a></li>
+            <li><a class="menuLink homeM active" href="#">Home</a></li>
+            <li><a class="menuLink aboutM" href="#product">About us</a></li>
+            <li><a class="menuLink featuresM" href="#features">Features</a></li>
+            <li><a class="menuLink feesM" href="#fees">Fees</a></li>
+            <li><a class="menuLink contactusM" href="#contact">Contact us</a></li>
             <ul>
                 <li><a href="#trial">Start Free Trial</a></li>
                 <li><a href="/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="30px"
@@ -82,7 +85,7 @@
             </ul>
         </ul>
     </header>
-    <main>
+    <main id="home">
         <section class="landing-page">
             <div>
                 <p>Secure, Scalable And Supported</p>

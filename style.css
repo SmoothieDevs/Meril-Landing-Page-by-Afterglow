@@ -136,7 +136,7 @@ nav ul li a:hover {
 /* Bouton navigation active*/
 
 .active {
-    color: #4ba0fe;
+    color: #4ba0fe !important;
     border-bottom: solid 3px #4ba0fe;
 }
 
@@ -812,6 +812,7 @@ footer div li {
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+        transition: all ease-in-out .3s;
     }
     .menuLink:hover {
         color: #4ba0fe;
