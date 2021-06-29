@@ -939,10 +939,35 @@ footer div li {
         width: 100%;
     }
 }
-@media all and (max-width: 1550px) {
+@media all and (max-width: 1600px) {
+    .product {
+        padding: 0 5%;
+        padding-bottom: 200px;
+    }
+}
+@media all and (max-width: 1500px) {
+    .card {
+        width: 375px;
+        margin-bottom: 120px;
+    }
+    .card figure {
+        position: relative;
+        top: -75px;
+        width: 90%;
+    }
+    .card figure img {
+        border-radius: 10px;
+        height: auto;
+        width: 100%;
+    }
+}
+@media all and (max-width: 1316px) {
     .product {
         padding: 0 10%;
-        padding-bottom: 200px;
+    }
+    .card {
+        width: 450px;
+        margin-bottom: 120px;
     }
 }
 @media all and (max-width: 1200px) {
@@ -955,16 +980,6 @@ footer div li {
     }
     .product>div {
         padding-top: 100px;
-    }
-    .card figure {
-        position: relative;
-        top: -75px;
-        width: 90%;
-    }
-    .card figure img {
-        border-radius: 10px;
-        height: auto;
-        width: 100%;
     }
 }
 
