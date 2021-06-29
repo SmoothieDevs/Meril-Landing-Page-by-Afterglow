@@ -230,7 +230,7 @@ main {
     background-color: #4ba0fe;
     border-radius: 5px;
     border: solid 1px #4ba0fe;
-    transition: all ease-in-out .3s;
+    transition: color ease-in-out .3s, background-color ease-in-out .3s;
 }
 
 .landing-page div a:hover {
@@ -1096,7 +1096,8 @@ footer div li {
 }
 
 /* ------------------------------ Trial Responsive --------------------------------------*/
-@media all and (max-width: 1400px){
+
+@media all and (max-width: 1750px){
     .trial {
         padding: 0 10%;
         padding-top: 100px;
